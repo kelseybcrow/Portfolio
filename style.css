@@ -28,7 +28,7 @@
 
 h1 {
   color: rgb(101, 56, 197);
-  text-align: center;
+  /* text-align: center; */
   /* border: darkgray; */
   /* font-weight: 100; */
   margin: 0;
@@ -40,7 +40,7 @@ h1 {
    margin: 0; 
    color: rgb(22, 3, 85);
    font-size: 50px;
-   text-align: center;
+   /* text-align: center; */
 
  }
 
@@ -48,12 +48,12 @@ h1 {
    margin: 0;
    color: rgb(58, 56, 197);
    font-size: 40px;
-
  }
 
- h6 {
+ p {
    margin: 0;
    font-size: 30px;
+   font-weight: bold;
    color: rgb(22, 3, 85);
  }
 
@@ -63,8 +63,20 @@ h1 {
    color: rgb(58, 56, 197);
  }
 
+ ul {
+   margin: 0;
+ }
+
+ ol {
+   margin: 0;
+ }
+
  li {
    font-size: 30px;
    color: rgb(22, 3, 85);
-  font-weight: bold;
+   font-weight: bold;
  }
+
+ a {
+  color: rgb(22, 3, 85);
+}
