@@ -1,8 +1,16 @@
-.bg-full-image {
-	position: relative;
-	min-width: 980px;
+.bg-container {
+  position: relative;
+  text-align: center;
+  color: burlywood;
 }
-.bg-full-image img {
+
+.title-text {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  font-size: 100px;
+}
+/* .bg-full-image img {
 	display: block;
 	width: 100%;
-}
+} */
