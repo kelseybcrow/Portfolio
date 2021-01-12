@@ -1,6 +1,6 @@
 .bg-container {
   position: relative;
-  text-align: center;
+  text-align: left;
   min-height: 100%;
   min-width: 1000px;
 }
@@ -13,28 +13,58 @@
   left: 0;
 }
 
-.title-text {
+.text {
   position: absolute;
-  top: 40px;
-  left: 80px;
+  top: 70px;
+  left: 140px;
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgba(227, 233, 240, 0.5);
-  margin: 50px 10px 50px 10px;
+  /* margin: 50px 10px 50px 10px; */
   width: 70%;
+  padding: 50px;
   /* border-radius: 100px; */
 }
 
 h1 {
   color: rgb(101, 56, 197);
+  text-align: center;
   /* border: darkgray; */
   /* font-weight: 100; */
   margin: 0;
-  padding: 50px;
+  /* padding: 50px; */
   font-style: italic;
 }
- h5 {
+
+ h3 {
    margin: 0; 
-   padding-bottom: 50px;
    color: rgb(22, 3, 85);
+   font-size: 50px;
+   text-align: center;
+
+ }
+
+ h2 {
+   margin: 0;
+   color: rgb(58, 56, 197);
+   font-size: 40px;
+
+ }
+
+ h6 {
+   margin: 0;
+   font-size: 30px;
+   color: rgb(22, 3, 85);
+ }
+
+ h4 {
+   margin: 0;
+   font-size: 40px;
+   color: rgb(58, 56, 197);
+ }
+
+ li {
+   font-size: 30px;
+   color: rgb(22, 3, 85);
+  font-weight: bold;
  }
