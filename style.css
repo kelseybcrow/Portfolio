@@ -7,7 +7,7 @@
 
 /* I liked the idea of having my "Hi, I'm Kelsey... I'm a software developer..." intro section be centered while the rest of the text was left-aligned. But it didn't end up looking quite right, so I aligned everything to the left */
 
-.bg-container img {
+#bg-pic {
   display: block;
   width: 100%;
   position: fixed;
@@ -15,6 +15,14 @@
   left: 0;
 }
 
+#profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: rgb(22, 3, 85) 3px solid;
+}
 /* Some stuff I was experimenting with, but didn't end up using. So I just commented that stuff out and left it*/
 
 .text {
@@ -23,7 +31,7 @@
   left: 140px;
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgba(227, 233, 240, 0.5);
+  background-color: rgba(227, 233, 240, 0.6);
   /* margin: 50px 10px 50px 10px; */
   width: 70%;
   padding: 50px;
@@ -35,7 +43,7 @@
 /* I added margin:0 for all of my headings and li's because it didn't seem to work to just put the margin:0 in the parent text class */
 h1 {
   color: rgb(101, 56, 197);
-  /* text-align: center; */
+  text-align: center;
   /* border: darkgray; */
   /* font-weight: 100; */
   margin: 0;
@@ -47,7 +55,7 @@ h1 {
    margin: 0; 
    color: rgb(22, 3, 85);
    font-size: 50px;
-   /* text-align: center; */
+   text-align: center;
 
  }
 
